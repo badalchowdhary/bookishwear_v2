@@ -84,7 +84,7 @@ const Login = () => {
                 {error && <Error>Wrong Credentials</Error>}
                 <Button onClick={handleLogin} disabled={isFetching}>Login</Button>
                 <Link>Forgor Password ?</Link>
-                <Link>Create new account</Link>
+                <Link to={`/register`}>Create new account</Link>
             </Form>
         </Wrapper>
     </Container>

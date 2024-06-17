@@ -26,13 +26,18 @@ const Info = styled.div`
     height: 100%;
 `
 const Title = styled.h1`
+    font-size: 32px;
+    padding: 2px 10px;
+    border-radius: 10px;
     margin-bottom: 20px;
+    color: white;
+    background-color: gray;
 `
 const Button = styled.button`
     padding: 12px 30px;
     font-size: 16px;
     font-weight: bold;
-    color: #6e6b6b;
+    color: whitesmoke;
     cursor: pointer;
     &:hover,
     &:focus {
