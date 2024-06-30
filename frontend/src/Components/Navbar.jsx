@@ -60,20 +60,20 @@ const Navbar = () => {
   return (
     <Container>
         <Wrapper>
-            <Left>
+            {/* <Left>
                 <SearchContainer>
                     <Input/>
                     <SearchIcon style={{color:"gray", fontSize:"18"}}/>
                 </SearchContainer>
                 
-            </Left>
-            <Center>
+            </Left> */}
+            <Left>
                 <Link to="/">
-                    <Logo>
+                    <Logo className=' text-2xl'>
                         BookishWear
                     </Logo>
                 </Link>
-            </Center>
+            </Left>
             <Right>
                 <Link to="/register">
                <MenuItem>REGISTER</MenuItem>

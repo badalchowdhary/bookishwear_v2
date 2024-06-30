@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import SendIcon from '@mui/icons-material/Send';
 
 const Container = styled.div`
-    height: 30vh;
+    /* height: 30vh; */
     background-color: #c4fafa;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ const Button = styled.button`
 
 const Newsletter = () => {
   return (
-    <Container>
+    <Container className='p-4'>
         <Title>
             Newsletters
         </Title>

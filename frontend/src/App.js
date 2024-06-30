@@ -39,7 +39,7 @@ function App() {
           {user ? <Redirect to="/"/> : <Login/>}
         </Route>
         <Route path="/register">
-        {user ? <Redirect to="/"/> : <Register/>}
+          {user ? <Redirect to="/"/> : <Register/>}
         </Route>
       </Switch>
     </Router>

@@ -32,5 +32,5 @@ app.use("/api/orders", orderRoute);
 
 
 app.listen(process.env.PORT, () => {
-    console.log("Backend Server is running !");
+    console.log(`Backend Server is running at ${process.env.PORT}`);
 });

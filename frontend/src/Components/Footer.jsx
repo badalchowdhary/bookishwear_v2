@@ -9,7 +9,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
 const Container = styled.div`
-    height: 40vh;
+    /* height: 40vh; */
     display: flex;
     background-color: #012c2c;
 `
