@@ -21,7 +21,7 @@ mongoose
 
 //Enable CORS for all routes
 app.use(cors({
-    origin: 'https://bookishwear-client.vercel.app/'
+    origin: 'https://bookishwear-client.vercel.app'
 }));
 
 app.use(express.json());
