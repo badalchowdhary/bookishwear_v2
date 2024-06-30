@@ -18,7 +18,7 @@ const PopularProducts = ({cat,filters,sort}) => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axios.get(cat ? `http://localhost:5001/api/products?category=${cat}` : "http://localhost:5001/api/products/");
+        const res = await axios.get(cat ? `https://bookishwear-server.vercel.app/api/products?category=${cat}` : "https://bookishwear-server.vercel.app/api/products/");
         setProducts(res.data);
       } catch (err) { }
     };

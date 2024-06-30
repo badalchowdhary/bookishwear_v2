@@ -20,7 +20,9 @@ mongoose
 });
 
 //Enable CORS for all routes
-app.use(cors());
+app.use(cors({
+    origin: 'https://bookishwear-client.vercel.app/'
+}));
 
 app.use(express.json());
 app.use("/api/auth", authRoute);
